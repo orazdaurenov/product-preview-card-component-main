@@ -37,7 +37,7 @@ body {
 
 .content {
   background-color: var(--White--);
-  padding: 1rem;
+  padding: 2.4rem;
   border-radius: 0 0 25px 25px;
 }
 
@@ -63,7 +63,7 @@ p, h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   flex-direction: column; 
-  width: 37.5rem;
+  width: 36rem;
 }
 
 .container img {
@@ -89,7 +89,7 @@ h1 {
 
 .description, h3 {
   color: var(--Dark-grayish-blue--);
-  font-family: Montserrat;
+  font-family: 'Montserrat', serif;
 }
 
 h3 {
@@ -98,7 +98,6 @@ h3 {
 
 .price1, .price2 {
   display: inline;
-  font-family: Fraunces;
 }
 
 .price1 {
@@ -106,6 +105,7 @@ h3 {
   color: var(--Dark-cyan--);
   font-weight: 700;
   margin-right: 2rem;
+  font-family: 'Fraunces', serif;
 }
 
 .price2 {
@@ -116,8 +116,7 @@ h3 {
 
 .button {
   width: 80%;
-  justify-content: space-around;
-  align-items: center;
+  margin: 1rem 3rem;
   background-color: var(--Dark-cyan--);
   border-style: none;
   border-radius: 10px;
