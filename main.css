@@ -143,4 +143,8 @@ h3 {
     .container {
       display: flex;
     }
+
+    .gallery {
+      border-radius: 25px 0 0 25px;
+    }
 }
