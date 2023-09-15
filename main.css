@@ -148,6 +148,7 @@ h3 {
 
     .gallery {
       border-radius: 25px 0 0 25px;
+      height: 100%;
     }
 
     .content {
