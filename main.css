@@ -142,6 +142,8 @@ h3 {
 @media screen and (min-width: 1440px) {
     .container {
       display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .gallery {
