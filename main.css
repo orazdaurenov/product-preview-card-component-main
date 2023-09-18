@@ -44,6 +44,10 @@ body {
 .container article:last-child {
   border-radius: 0 0 2.5rem 2.5rem;
   background: var(--White--);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1, 
@@ -71,7 +75,8 @@ h2 {
   font-weight: 500;
   color: var(--Dark-grayish-blue--);
   letter-spacing: 0.2rem;
-  padding: 1rem;
+  margin-right: 25rem;
+  margin-top: 1rem;
 }
 
 p {
@@ -86,8 +91,8 @@ ul {
 }
 
 ul li:first-child {
-  font-size: 3rem;
-  margin-right: 1rem;
+  font-size: 4rem;
+  margin-right: 3rem;
 }
 
 ul li:nth-child(2) {
@@ -107,6 +112,7 @@ ul li:nth-child(2) {
   justify-content: center;
   padding: 1rem 2rem;
   width: 80%;
+  margin-bottom: 0.5em;
 }
 
 .btn:hover {
